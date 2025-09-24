@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    min-width: 100vw;
+}
+.main-container{
+    display: flex;
+}
+
+.preview{
+    flex: 4;
+    padding-inline: 1em;
+    height: 100vh;
+    /* background-color: red; */
+    position: fixed;
+    top:0;
+    /* left: 450px; */
+    right: 0;
+    z-index: 1;
+    width: 70%;
+
+    
+   
+ 
+}
+
+
+
+
+.heading{
+    margin-bottom: 1em;
+}
+.general-information{
+    text-align: center;
+}
+
+.section{
+    color: rgb(127, 127, 195);
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin: 1em 0;
+}
+
+.details{
+    font-size: 1.1rem;
+    margin: 1em 0;
+}
+
+.small{
+    margin-top: -1em;
+    font-size: 1rem;
+    margin-bottom: 3em;
+}
+
+.description{
+    margin-block: 1em;
+    /* font-size: 2rem; */
+}
+
+hr{
+    margin-block: 1em;
+}
+
+
+.buttons{
+    width: 100%;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: end;
+    gap: .3em;
+    /* flex-direction: column; */
+    /* align-items: end; */
+}
+
+.edit, .submit{
+    padding: 1em 1em;
+}
+
+.edit{
+    background: aliceblue;
+    color: blue;
+    font-weight: bolder;
+    width: 40%;
+    cursor: pointer;
+    border: none;
+}
+
+.submit{
+    background-color: rgba(46, 241, 241, 0.662);
+    font-weight: bolder;
+    color: #fff;
+    width: 40%;
+    cursor: pointer;
+    border: none;
+}
+
+.form-head{
+    font-size: 1.5rem;
+    /* color: rgb(56, 109, 155); */
+    color: #fff;
+}
+
+.fill-form{
+    font-size: 5rem;
+    color: red;
+    margin-block: 5em;
+    
+}
